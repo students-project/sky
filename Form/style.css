@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background-color: gray;
+    color: aqua;
+    border-top-left-radius:25px ;
+    border-bottom-right-radius:25px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+}
+.inputgroop{
+    padding: 25px;
+    background-color: gray;
+}
+.inputtext{
+    background-color: black;
+    border-bottom: 2px solid aqua;
+    color:white;
+    width:40px ;
+    padding: 4px 50px;
+    border: none;
+    
+}
+.button{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 3px 75px;
+}
+.footer{
+    padding: 20px;
+}
+.footer a{
+    padding: 0 15px;
+}

@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-image: url(img7.webp);
+    background-size: cover;
+    background-position:center;
+}
+.text{
+    position: absolute;
+    bottom: 40%;
+    width: 80%;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.text h1{
+    font-size: 500;
+    font-size: 3vw;
+
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+.right p{
+    color: white;
+    font-size: 13px;
+    width: 40%;
+}
+.right i{
+    padding: 5px;
+}
+.bottom{
+    width: 100%;
+    height: 40%;
+    background-color:green;
+    display: flex;
+}
+
+.b1{
+    width: 25%;
+    height: 87%;
+    background-color:grey;
+    padding-top: 30px;
+    padding-left:30px ;
+
+}
+.note{
+    display: flex;
+    padding-top: 20px;
+}
+.note .photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(img6.webp);
+    background-size: cover;
+}
+.note p{
+    padding: 0 10px;
+    width: 70%;
+}
+.b2{
+    width: 25%;
+    height: 100%;
+    background-image: url(img2.webp);
+    background-size: cover;
+    background-position: center ;
+}
+.b3{
+    width: 20%;
+    height: 100%;
+    background-color: blue;
+}
+.bleft{
+    padding-top: 10px;
+    padding-left: 24px;
+    width: 90%;
+    height: 45%;
+    background-color:rgba(255, 0, 0, 0.826);
+}
+.bleft p{
+    font-size: 12px;
+}
+.bright{
+    width: 100%;
+    height: 50%;
+    background-image: url(img3.jpg);
+    background-size: cover;
+
+}
+.b4{
+    width: 30%;
+    height: 70%;
+    background-image: url(img4.jpg);
+    background-size: cover;
+    background-position: top;
+    padding-top: 70px;
+    padding-left: 28px;
+    color: black;
+
+}

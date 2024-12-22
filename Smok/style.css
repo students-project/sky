@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100;
+    width: 100;
+    background-color: black;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    /* transform: translateY(-100%); */
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 span{
+    animation:anim 4 s linear forwards ;
+    display: inline-block;
+}
+
+@keyframes anim{
+    0%{
+        opacity: 0;
+        transform: rotateY(-90deg);
+        filter: blur(20px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* h1 span:nth-child(1){
+    animation-delay: 1s;
+}
+h1 span:nth-child(2){
+    animation-delay:1.5s;
+}
+h1 span:nth-child(3){
+    animation-delay: 2s;
+}
+h1 span:nth-child(4){
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(5){
+    animation-delay: 3s;
+}h1 span:nth-child(6){
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(7){
+    animation-delay: 4s;
+}
+h1 span:nth-child(8){
+    animation-delay: 4.5s;
+}
+h1 span:nth-child(9){
+    animation-delay: 5s;
+} */
+
+

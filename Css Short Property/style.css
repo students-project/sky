@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+img{
+    /* filter: blur(5px); */
+    /* filter:contrast(200%); */
+    filter:grayscale(70%);
+}
+
+/* img:active{
+    filter:none;
+} */
+
+img:hover{
+    filter:none;
+}
+
+
+input{
+    padding: 10px;
+    border: 1px solid red;
+    caret-color: blue;
+    font-size: 1.5rem;
+}
+
+input:focus{
+    outline: 1px solid red;
+}
+input::placeholder{
+    color: red;
+}
